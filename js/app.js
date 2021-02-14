@@ -69,17 +69,25 @@ for (let i=1;i<=14;i++){
 }
 
 function Fill_List (id , object) {
-  var ul = document.getElementById(id);
-  var li = [document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li")];
+  let ul = document.getElementById(id);
+  let li = [document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li"),document.createElement("li")];
 
+  
+  let all_cookies=0;
   let cookies=0;
     for(let i=0;i<14;i++){
         cookies=object.sale[i]*(object.avg);
         cookies=Math.round(cookies);
+        all_cookies=all_cookies+cookies;
         cookies=time[i]+' : '+cookies+' cookies';
+
         li[i].appendChild(document.createTextNode(cookies));
         ul.appendChild(li[i]);
     }
+    
+
+   li[14].appendChild(document.createTextNode('Total : '+all_cookies+' cookies'));
+   ul.appendChild(li[14]);
 }
 
 
@@ -91,6 +99,7 @@ Fill_List('Tokyo_ul',Tokyo);
 Fill_List('Dubai_ul',Dubai);
 Fill_List('Paris_ul',Paris);
 Fill_List('Lima_ul',Lima);
+
 
 
 

@@ -1,0 +1,10 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: flex-start;
+}
+h3{
+    margin-left: 10px;
+}

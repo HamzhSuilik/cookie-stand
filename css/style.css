@@ -1,5 +1,6 @@
 body{
     font-family: 'Dancing Script', cursive;
+    background-image: url(../img/fish2.png);
 }
 a{
     font-family: 'Courier New', Courier, monospace;
@@ -80,4 +81,63 @@ a{
     border-color: blue;
     border-style:dashed;
     margin-top: 30px;
+}
+
+#head1{
+    background-color: rgba(175, 86, 74, 0.747);
+    text-align: center;
+    align-self:center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    border-color: rgb(67, 172, 6);
+    border-width: 4px;
+    border-style:double;
+    border-radius: 10px;
+    
+}
+
+#add_new{
+    
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgba(175, 86, 74, 0.747);
+    border-color: rgb(67, 172, 6);
+    border-width: 4px;
+    border-style:double;
+    border-radius: 10px;
+}
+
+
+#add_new>*{
+    float:none;
+    border-width: 2PX;
+    width: 100%;
+    
+}
+
+#section2>*{
+    float:left;
+    margin-left: 30px;
+    width: 100%;  
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+form {
+    float:left;
+    margin-left: 30px;
+    width: 100%; 
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+form>*{
+    float:left;
+    margin-left: 30px; 
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }

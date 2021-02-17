@@ -12,7 +12,6 @@ h3{
 tr{
     margin: 30px;
     padding: 20px;
-
     border-color: rgb(32, 56, 1);
     border-width: 2px;
     border-style:solid;
@@ -24,19 +23,16 @@ tr{
 tr:nth-of-type(odd){
     margin: 30px;
     padding: 20px;
-
     border-color: rgb(252, 255, 78);
     border-width: 2px;
     border-style:solid;
     border-radius: 20px;
-
     background-color: rgb(60, 31, 167);
 }
 
 th{
     padding: 15px;
     border-radius: 5px;
-
     border-width: 2px;
     border-style:solid;
 }
@@ -49,4 +45,39 @@ table{
     border-width: 4px;
     border-style:double;
     border-radius: 10px;
+}
+
+section{
+    width: 25%;
+    float: left;
+   
+}
+header{
+    height: 45px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    align-content: center;
+    border-width: 3px;
+    border-color: blue;
+    border-style: dashed;
+}
+a{
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+    padding: 30px;
+
+}
+
+#information{
+    font-size: 30px;
+    background-color: rgba(80, 214, 214, 0.507);
+    font-family: 'Fredoka One', cursive;
+    float:unset;
+    width:fit-content;
+    padding: 5px;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: blue;
+    border-style:dashed;
+    margin-top: 30px;
 }

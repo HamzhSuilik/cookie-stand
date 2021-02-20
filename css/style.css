@@ -141,3 +141,7 @@ form>*{
     margin: 5px;
     text-align: center;
 }
+
+#information>p{
+    font-size: 25px;
+}
